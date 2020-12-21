@@ -1,0 +1,43 @@
+.btn{
+    a{
+        color:#fff;
+    }
+}
+@media screen and (min-width:960px){
+    
+.form_frex{
+    
+    .form_frex_l{
+    width: 48%;
+    float: left;
+    margin: 0 1%;
+    img{
+    height: 700px;
+    width: auto;
+    margin: auto;
+    }
+    }
+    .form_frex_r{
+    width: 50%;
+    float: left; 
+    }
+}
+
+}
+
+@media screen and (max-width:959px){
+  .form_frex{
+    
+    .form_frex_l{
+        img{
+            margin: 0 auto;
+    width: auto;
+    display: block;
+        }
+    }
+    .form_frex_r{
+
+    }
+}
+    
+}
